@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CleanArchitectureKoinMVVM</string>
+    <string name="api_host"></string>
+    <string name="api_key"></string>
+</resources>
