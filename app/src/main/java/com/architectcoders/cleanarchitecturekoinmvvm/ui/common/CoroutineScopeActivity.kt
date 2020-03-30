@@ -1,4 +1,4 @@
-package com.architectcoders.collection.ui.common
+package com.architectcoders.cleanarchitecturekoinmvvm.ui.common
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

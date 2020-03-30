@@ -1,4 +1,4 @@
-package com.architectcoders.collection.model
+package com.architectcoders.cleanarchitecturekoinmvvm.data.source.server
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import okhttp3.OkHttpClient
@@ -6,20 +6,21 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object PokeDb {
+class WeatherDB(baseUrl: String) {
 
-    private val okHttpClient = HttpLoggingInterceptor().run {
+    val okHttpClient = HttpLoggingInterceptor().run {
         level = HttpLoggingInterceptor.Level.BODY
         OkHttpClient.Builder().addInterceptor(this).build()
     }
 
-    val service: PokeService = Retrofit.Builder()
-        .baseUrl("https://pokemon-go1.p.rapidapi.com/")
+    val service: TheWeatherDBService = Retrofit.Builder()
+        .baseUrl(baseUrl)
         .client(okHttpClient)
         .addCallAdapterFactory(CoroutineCallAdapterFactory())
         .addConverterFactory(GsonConverterFactory.create())
         .build()
         .run {
-            create<PokeService>(PokeService::class.java)
+            create<TheWeatherDBService>(
+                TheWeatherDBService::class.java)
         }
 }
