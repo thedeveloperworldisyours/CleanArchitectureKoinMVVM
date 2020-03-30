@@ -94,7 +94,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <com.architectcoders.cleanarchitecturekoinmvvm.ui.common.customview.WeatherDetailInfoView
+            <com.thedeveloperworldisyours.cleanarchitecturekoinmvvm.ui.common.customview.WeatherDetailInfoView
                 android:id="@+id/weatherDetailInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
