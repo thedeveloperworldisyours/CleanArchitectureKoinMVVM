@@ -23,8 +23,8 @@ class DetailActivity : AppCompatActivity() {
 
     private lateinit var adapter: DetailAdapter
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onCreate(savedfindWeatherByCityInstanceState: Bundle?) {
+        super.onCreate(savedfindWeatherByCityInstanceState)
         setContentView(R.layout.detail_activity)
 
         viewModel.model.observe(this, Observer(::updateUI))
