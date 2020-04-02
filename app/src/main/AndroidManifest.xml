@@ -26,5 +26,4 @@
             android:name="com.thedeveloperworldisyours.cleanarchitecturekoinmvvm.ui.detail.DetailActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
-
 </manifest>
