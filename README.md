@@ -1,4 +1,4 @@
-# CleanArchitetureKoinMVVM
+# CleanArchitectureKoinMVVM
 
 Presentation Layer:
 
