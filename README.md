@@ -16,7 +16,7 @@ Data layer:
 
 - Repository
 - DataSource
-<a href="https://www.youtube.com/watch?v=ySSP_wZ6g10">
+<a align="center" href="https://www.youtube.com/watch?v=ySSP_wZ6g10">
   <img alt="you can check my Youtube video in Spanish" src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721679-youtube_108064.png" width="100px"/>
 </a>
 
