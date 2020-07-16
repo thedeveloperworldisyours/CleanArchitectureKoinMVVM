@@ -27,6 +27,7 @@ Data layer:
 " target="_blank"><img src="http://img.youtube.com/vi/ySSP_wZ6g10/0.jpg" 
 alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app para registro de tu ganado." width="480" height="360" border="10" />
   </a>
+ </p> 
 # Further reading
 
   As the above only gives a rough overview of Clean Architecture example I'd strongly recommend checking out the following:
