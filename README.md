@@ -22,7 +22,11 @@ Data layer:
 <a align="center" href="https://www.youtube.com/watch?v=ySSP_wZ6g10">
   <img alt="you can check my Youtube video in Spanish" src="https://github.com/thedeveloperworldisyours/CleanArchitectureKoinMVVM/blob/master/youtubeIcon.png" width="100px"/>
 </a>
-
+<p align="center">
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=ySSP_wZ6g10
+" target="_blank"><img src="http://img.youtube.com/vi/ySSP_wZ6g10/0.jpg" 
+alt="Puedes añadir el número del crotal con la cámara usando El Mayoral, app para registro de tu ganado." width="480" height="360" border="10" />
+  </a>
 # Further reading
 
   As the above only gives a rough overview of Clean Architecture example I'd strongly recommend checking out the following:
